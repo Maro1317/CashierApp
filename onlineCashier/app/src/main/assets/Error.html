@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page Title</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333; /* Darker color */
+            color: #fff;
+            padding: 8px; /* Smaller padding */
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px; /* Larger font size */
+            height :20x;
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 100px; /* Adjust the width as needed */
+            height: auto;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1; /* Grow to fill remaining space */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        button {
+            padding: 20px 40px; /* Bigger padding */
+            font-size: 20px; /* Bigger font size */
+            background-color: #a67943;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px; /* Rounded corners */
+        }
+
+        footer {
+            background-color: #333; /* Darker color */
+            color: #fff;
+            padding: 8px; /* Smaller padding */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <h1>Solitaire Jewellery</h1>
+    <img src="logo.png" alt="Logo">
+</header>
+
+<main>
+
+    <button onclick="redirectToSuppliers()">Try to Connect</button>
+</main>
+
+<footer>
+    <!-- Your Footer Content Goes Here -->
+    Solitaire jewellery
+</footer>
+
+<script>
+        function redirectToSuppliers() {
+            window.location.href = "http://web.soligold.com/admin/suppliers.aspx";
+        }
+    </script>
+</body>
+
+</html>
