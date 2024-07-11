@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Train
+comment1.params=name\ arrival\ departure
+comment1.target=Train(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getArrival()
+comment4.params=
+comment4.target=int\ getDeparture()
+numComments=5

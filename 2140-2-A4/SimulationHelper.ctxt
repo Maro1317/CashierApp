@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SimulationHelper
+comment1.params=time
+comment1.target=java.lang.String\ formatTime(int)
+comment2.params=time\ event
+comment2.target=void\ logEvent(int,\ java.lang.String)
+comment3.params=trainName\ platform
+comment3.target=java.lang.String\ formatDeparture(java.lang.String,\ java.lang.String)
+comment4.params=trainName\ platformName
+comment4.target=java.lang.String\ formatArrival(java.lang.String,\ java.lang.String)
+comment5.params=currentTrain\ platformName
+comment5.target=void\ logTrainMovement(Train,\ java.lang.String)
+numComments=6

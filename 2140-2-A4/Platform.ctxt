@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Platform
+comment1.params=name\ departureTime
+comment1.target=Platform(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getDepartureTime()
+numComments=4
